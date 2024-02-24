@@ -2,7 +2,22 @@
 
 #include <stdio.h>
 
-main()
+ maxNum(int arr[], int size)
+{
+    int max = arr[0];
+
+    for (int i = 1; i < size; i++)
+    {
+        if (max < arr[i])
+        {
+            max = arr[i];
+        }
+    }
+
+    return max;
+}
+
+int main()
 {
     int a[100], i, max, n;
 
@@ -13,17 +28,10 @@ main()
 
     for (i = 0; i < n; i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%d", &a[i]);
     }
 
-    max = a[0];
+    max = maxNum(a, n);
 
-    for (i = 0; i < n; i++)
-    {
-        if (max < a[i])
-        {
-            max = a[i];
-        }
-    }
     printf("The maximum number from the given array is : %d", max);
 }
