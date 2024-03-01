@@ -1,0 +1,22 @@
+Q - 3. Difference between OOP and POP:
+
+Ans.
+
+OOP :
+
+1. OOP stands for Object Oriented Programming.
+2. OOP focuses on creating objects to represent real-world entities.
+3. OOP supports the concepts of Inheritance, Encapsulation and Polymorphism.
+4. OOP supports code reusability modularity and flexibility.
+5. OOP is used for larger, more complex projects with a lot of data to manage.
+6. Examples of OOP Languages - Java, C++, Python, etc.
+
+
+
+POP :
+1. POP stands for Procedure Oriented Programming.
+2. POP focuses on creating a series of procedures/functions to perform tasks.
+3. POP does not support the concepts of Inheritance, Encapsulation and Polymorphism.
+4. POP emphasizes on simplicity, clarity and spees.
+5. POP is used for smaller, simpler projects with fewer data management requirement.
+6. Examples of POP Languages - C, Pascal, Fortran.
