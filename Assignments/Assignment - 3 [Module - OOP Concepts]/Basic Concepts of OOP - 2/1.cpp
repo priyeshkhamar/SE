@@ -18,10 +18,11 @@ public:
 
         cout << "\nMenu : ";
         cout << "\n1. Addition";
-        cout << "\n2.Subtraction";
+        cout << "\n2. Subtraction";
         cout << "\n3. Multiplication";
         cout << "\n4. Division";
         cout << "\n5. Modulo";
+        cout << "\nEnter your Choice : ";
         cin >> choice;
 
         switch (choice)
@@ -52,7 +53,7 @@ public:
             break;
 
         default:
-            cout << "\nInvalid Choice;";
+            cout << "\nInvalid Choice";
             break;
         }
     }
