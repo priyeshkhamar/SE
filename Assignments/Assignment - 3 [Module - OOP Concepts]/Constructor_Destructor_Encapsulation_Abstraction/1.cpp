@@ -2,6 +2,7 @@
 // inline function
 
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
 // Inline function to calculate multiplication
