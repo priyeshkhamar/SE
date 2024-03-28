@@ -2,6 +2,7 @@ create database db1;
 
 use db1;
 
+-- 2
 create table Employee (
 Employee_id int auto_increment primary key,
 First_Name varchar(30),
@@ -51,17 +52,27 @@ values
 
 select * from Incentives;
 
+-- 3
 SELECT First_Name FROM Employee WHERE First_Name = 'Tom';
 
+-- 4
 select First_Name, Joining_Date, Salary from Employee; 
 
+-- 5
 select * from Employee order by First_Name asc;
 
 select * from Employee order by Salary desc;
 
+-- 6
 SELECT * FROM Employee WHERE first_name LIKE '%J%';
 
+
+-- 7
 SELECT department, MAX(salary) AS max_salary
 FROM employee
 GROUP BY department
 ORDER BY max_salary ASC;
+
+-- 9
+
+-- 10

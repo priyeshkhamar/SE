@@ -1,0 +1,10 @@
+Q - 7. What is DML Compiler in SQL?
+Ans.
+ DML refers to the subset of SQL statements used for manipulating data in a database. These statements include commands like SELECT, INSERT, UPDATE, DELETE, etc.
+
+ Following are the four main DML commands in SQL:
+
+1. SELECT Command - The SELECT command shows the records of the specified table.
+2. INSERT Command - The INSERT command allows users to insert data in database tables.
+3. UPDATE Command - The UPDATE command allows users to update or modify the existing data in database tables.
+4. DELETE Command - The DELETE command allows SQL users to remove single or multiple existing records from the database tables.

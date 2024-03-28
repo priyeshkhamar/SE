@@ -1,2 +1,29 @@
 Q - 4. What is E.F. Codd Rule of RDBMS Systems?
 Ans.
+
+E.F. Codd, after his extensive research on the Relational Model of database systems, came up with twelve rules of his own, which according to him, a database must obey in order to be regarded as a true relational database.
+This is a foundation rule, which acts as a base for all the other rules.
+
+1. Information Rule: All data should be stored in tables and each row must have a unique identifier.
+
+2. Guaranteed Access Rule: Each data item should be accessible using a combination of table name, primary key, and column name.
+
+3. Systematic Treatment of NULL Values: The DBMS must support the representation of missing and inapplicable information using NULL values without compromising data integrity.
+
+4. Dynamic Online Catalog Based on the Relational Model: The structure (schema) of the database must be stored in a catalog or dictionary, which the DBMS must maintain.
+
+5. Comprehensive Data Sub-language Rule: The DBMS must support a comprehensive language for defining, manipulating, and querying data.
+
+6. View Updating Rule: All views that are theoretically updatable should also be updatable by the system.
+
+7. High-level Insert, Update, and Delete: The system must support high-level insert, update, and delete operations.
+
+8. Physical Data Independence: Changes to the physical storage structures should not require changes to the application's logical view of data.
+
+9. Logical Data Independence: Changes to the logical structure (schema) should not require changes to the application's view of the data.
+
+10. Integrity Independence: Integrity constraints should be stored in the catalog and not dependent on application programs.
+
+11. Distribution Independence: The distribution of portions of the database to various locations should not affect the application.
+
+12. Non-subversion Rule: If the system provides a low-level (record-at-a-time) interface, it must also provide a high-level (set-at-a-time) interface that preserves the integrity rules of the system.

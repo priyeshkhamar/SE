@@ -1,0 +1,42 @@
+Q - 8. What is SQL Key Constraints? Explain writing an example of SQL Key Constraints.
+Ans.
+
+Key constraints in SQL are restrictions that apply to columns in a table to ensure uniqueness and consistency. 
+There are three main types of key constraints:
+
+1. Primary Key
+A primary key constraint ensures that each record in a table is uniquely identified. 
+It checks that the column or collection of columns specified as the primary key does not contain duplicate or null entries. 
+Each table may have only one primary key constraint.
+
+2. Unique Key
+A unique key constraint assures that the values in the provided column(s) are unique across all rows of the table. 
+A unique key constraint, unlike a primary key, allows for null values, but only one per column.
+
+3. Foreign Key
+A foreign key constraint defines a relationship between two tables. 
+It ensures that the values in a column or columns in one table correspond to the primary key or unique key columns in another table. This constraint ensures that the connected tables have consistent references.
+
+Example:
+
+-- Creating a table with primary key constraint
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DepartmentID INT
+);
+
+-- Creating a table with unique key constraint
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(50) UNIQUE
+);
+
+-- Creating a table with foreign key constraint
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    EmployeeID INT,
+    OrderDate DATE,
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
+);

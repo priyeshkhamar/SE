@@ -1,0 +1,13 @@
+Q - 10. What is trigger and how to create a Trigger in SQL?
+Ans.
+A trigger is a stored procedure in a database that automatically invokes whenever a special event in the database occurs. 
+For example, a trigger can be invoked when a row is inserted into a specified table or when specific table columns are updated in simple words a trigger is a collection of SQL statements with particular names that are stored in system memory.
+
+Example :
+
+create tigger safety
+on database
+for
+create_table,alter_table,drop_table
+as
+print 'you can not create,drop and alter tab

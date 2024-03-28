@@ -1,0 +1,5 @@
+Q - 5. What do you understand By Data Redundancy?
+Ans.
+
+Data redundancy is when the same information is stored in more than one place at the same time, such as in a database or file-based structure. 
+It can be intentional, such as for backup and data security, or unintentional.
