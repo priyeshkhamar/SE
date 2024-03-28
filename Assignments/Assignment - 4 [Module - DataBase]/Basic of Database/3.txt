@@ -1,0 +1,23 @@
+Q - 3. What is Difference between DBMS and RDBMS?
+Ans.
+
+DBMS :
+1. Data stored is in the file format.
+2. Can access individual data at one time.
+3. No connection between data.
+4. Data stored is a small quantity.
+5. DBMS supports a single user.
+6.There is only low security while handling data.
+7. The software and hardware requirements are low for DBMS.
+8. Example - 	XML, Microsoft Access.
+
+
+RDBMS :
+1. Data stored is in table format.
+2. Multiple data are accessible together.
+3. Data in the form of a table are linked together.
+4. Data is stored in a large amount.
+5. RDBMS supports multiple users.
+6. It features multiple layers of security while handling data.
+7. The software and hardware requirements are higher.
+8. Examples - Oracle, SQL Server.

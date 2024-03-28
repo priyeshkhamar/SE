@@ -1,0 +1,6 @@
+Q - 2. What is Normalization?
+Ans.
+
+Normalization is a procedure in database architecture that organizes data effectively and reduces duplication.
+It involves breaking down a large table into smaller tables and establishing relationships between them. 
+The primary purpose of normalization is to reduce data duplication and dependency, hence improving the reliability of data and lowering the risk of irregularities during data processing.

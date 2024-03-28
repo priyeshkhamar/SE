@@ -1,0 +1,7 @@
+Q - 1. What do you understand by Database?
+Ans.
+A database is a organized collection of data controlled and managed by a DBMS [Database Management System].
+The data in database in stored in the form of tables, which makes querying and processing of data easy and effective.
+Structured query language (SQL) is commonly used for data querying and writing. 
+
+In a database, data is organized into tables consisting of rows and columns and it is indexed so data can be updated, expanded, and deleted easily. Computer databases typically contain file records data like transactions money in one bank account to another bank account, sales and customer details, fee details of students, and product details.

@@ -1,0 +1,2 @@
+Q - 4. What is E.F. Codd Rule of RDBMS Systems?
+Ans.
