@@ -1,4 +1,4 @@
---1
+-- 1
 
 create database db1;
 

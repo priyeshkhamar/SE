@@ -74,5 +74,28 @@ GROUP BY department
 ORDER BY max_salary ASC;
 
 -- 9
+SELECT e.First_Name, i.Incentive_Amount 
+FROM Employee e
+INNER JOIN Incentives i ON e.Employee_id = i.Employee_Ref_id 
+WHERE i.Incentive_Amount > 3000;
 
 -- 10
+CREATE TABLE viewtable (
+    Employee_id int,
+    First_Name varchar(30),
+    Last_Name varchar(30),
+    Salary int,
+    Joining_Date datetime,
+    Department varchar(20)
+);
+
+DELIMITER $$
+CREATE TRIGGER after_employee_insert
+AFTER INSERT ON Employee
+FOR EACH ROW
+BEGIN
+    INSERT INTO viewtable (Employee_id, First_Name, Last_Name, Salary, Joining_Date, Department)
+    VALUES (NEW.Employee_id, NEW.First_Name, NEW.Last_Name, NEW.Salary, NEW.Joining_Date, NEW.Department);
+END;
+$$
+DELIMITER ;

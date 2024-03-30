@@ -37,25 +37,24 @@ values
 
 select * from customer;
 
-Query 13;
+-- 13
 
-
---14
+-- 14
 SELECT SName, City
 FROM SalesPerson
 WHERE City = 'London' AND Comm > 0.12;
 
---15
+-- 15
 SELECT SName, City
 FROM SalesPerson
 WHERE City IN ('Barcelona', 'London');
 
---16
+-- 16
 SELECT SName, Comm
 FROM SalesPerson
 WHERE Comm > 0.10 AND Comm < 0.12;
 
---17
+-- 17
 SELECT CNo, CName, City, Rating
 FROM Customer
 WHERE Rating > 100 OR (Rating <= 100 AND City = 'Rome');
