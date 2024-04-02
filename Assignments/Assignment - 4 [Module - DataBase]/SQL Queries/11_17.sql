@@ -1,4 +1,4 @@
---11
+-- 11
 
 create table SalesPerson (
 SNo int primary key,
@@ -35,24 +35,30 @@ values
 ("206", "Clemens", "London", "300","1007"),
 ("207", "Pereira", "Roe", "100","1004");
 
+
+-- 12
 select * from customer;
 
 -- 13
+
 
 -- 14
 SELECT SName, City
 FROM SalesPerson
 WHERE City = 'London' AND Comm > 0.12;
 
+
 -- 15
 SELECT SName, City
 FROM SalesPerson
 WHERE City IN ('Barcelona', 'London');
 
+
 -- 16
 SELECT SName, Comm
 FROM SalesPerson
 WHERE Comm > 0.10 AND Comm < 0.12;
+
 
 -- 17
 SELECT CNo, CName, City, Rating

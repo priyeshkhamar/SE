@@ -23,10 +23,10 @@ values
 
 select * from item_mast;
 
+
 -- 20
 select * from item_mast
 WHERE Pro_Price between 200 AND 600;
-
 
 -- 21
 SELECT AVG(Pro_Price)

@@ -52,16 +52,20 @@ values
 
 select * from Incentives;
 
+
 -- 3
 SELECT First_Name FROM Employee WHERE First_Name = 'Tom';
 
+
 -- 4
 select First_Name, Joining_Date, Salary from Employee; 
+
 
 -- 5
 select * from Employee order by First_Name asc;
 
 select * from Employee order by Salary desc;
+
 
 -- 6
 SELECT * FROM Employee WHERE first_name LIKE '%J%';
@@ -73,11 +77,13 @@ FROM employee
 GROUP BY department
 ORDER BY max_salary ASC;
 
+
 -- 9
 SELECT e.First_Name, i.Incentive_Amount 
 FROM Employee e
 INNER JOIN Incentives i ON e.Employee_id = i.Employee_Ref_id 
 WHERE i.Incentive_Amount > 3000;
+
 
 -- 10
 CREATE TABLE viewtable (

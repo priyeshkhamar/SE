@@ -9,7 +9,7 @@ Roll_No int auto_increment,
 Name varchar(50),
 Branch varchar(50),
 primary key (Roll_No)
-);
+); 
 
 CREATE TABLE Exam(
 Roll_No int,
