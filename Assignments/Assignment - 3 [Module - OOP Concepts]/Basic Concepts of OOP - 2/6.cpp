@@ -43,6 +43,4 @@ int main()
 
     // Displaying all details
     person.displayDetails();
-
-    return 0;
 }
