@@ -64,3 +64,4 @@ WHERE Comm > 0.10 AND Comm < 0.12;
 SELECT CNo, CName, City, Rating
 FROM Customer
 WHERE Rating > 100 OR (Rating <= 100 AND City = 'Rome');
+
