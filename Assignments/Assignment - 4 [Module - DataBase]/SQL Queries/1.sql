@@ -4,11 +4,11 @@ create database db1;
 
 use db1;
 
-create table students (
-Roll_No int auto_increment,
-Name varchar(50),
-Branch varchar(50),
-primary key (Roll_No)
+CREATE TABLE students (
+    Roll_No INT AUTO_INCREMENT,
+    Name VARCHAR(50),
+    Branch VARCHAR(50),
+    PRIMARY KEY (Roll_No)
 ); 
 
 CREATE TABLE Exam(

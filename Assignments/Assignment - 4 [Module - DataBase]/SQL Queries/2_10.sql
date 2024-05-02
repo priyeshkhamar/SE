@@ -72,8 +72,10 @@ SELECT * FROM Employee WHERE first_name LIKE '%J%';
 
 
 -- 7
-SELECT department, MAX(salary) AS max_salary
-FROM employee
+SELECT 
+    department, MAX(salary) AS max_salary
+FROM
+    employee
 GROUP BY department
 ORDER BY max_salary ASC;
 

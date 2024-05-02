@@ -55,9 +55,12 @@ WHERE City IN ('Barcelona', 'London');
 
 
 -- 16
-SELECT SName, Comm
-FROM SalesPerson
-WHERE Comm > 0.10 AND Comm < 0.12;
+SELECT 
+    SName, Comm
+FROM
+    SalesPerson
+WHERE
+    Comm > 0.10 AND Comm < 0.12;
 
 
 -- 17
